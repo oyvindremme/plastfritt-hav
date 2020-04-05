@@ -1,4 +1,17 @@
 import React from "react"
+
+// Components
+import Nav from "../components/Nav"
+
+// Assets
 import "../styles/main.scss"
 
-export default () => <div>Hello world!</div>
+const Hjem = ({ data }) => {
+    return (
+        <>
+            <Nav />
+        </>
+    )
+}
+
+export default Hjem

@@ -4,7 +4,8 @@
 }
 
 body {
-    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
 }
 
 // Site navigation
@@ -14,4 +15,28 @@ body {
     padding: 14px 30px;
     display: flex;
     align-items: center;
+}
+
+// Front page header
+.front-header {
+    padding: 30px;
+    padding-top: 65px;
+    padding-bottom: 120px;
+    background-color: #333333;
+    color: #FFFFFF;
+    &__title {
+        font-size: 1.7rem;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        font-weight: 900;
+    }
+    &__sub-title {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        font-weight: 300;
+    }
+    &__body-text {
+        font-size: 1rem;
+        font-weight: 200;
+    }
 }

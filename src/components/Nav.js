@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql, StaticQuery } from "gatsby"
 import Img from "gatsby-image"
 
-export default () => (
+const Nav = () => (
     <StaticQuery
         query={graphql`
         query {
@@ -26,3 +26,5 @@ export default () => (
         )}
     />
 )
+
+export default Nav

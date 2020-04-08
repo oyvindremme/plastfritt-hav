@@ -7,6 +7,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: 17px;
     color: #333333;
+    font-weight: 400;
 }
 
 p {
@@ -87,7 +88,16 @@ h2 {
 }
 
 // Section Om oss
-.om-oss {
+.om-oss,
+.image-gallery {
     padding: 30px;
     padding-top: 55px;
+}
+
+// Section Image Gallery
+.image-gallery {
+    &__images {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

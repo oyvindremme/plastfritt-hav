@@ -20,7 +20,7 @@ const Header = () => {
     return (
         <BackgroundImage
             tag="header"
-            className="front-header"
+            className="front-header container"
             fluid={data.headerBackgroundImage.childImageSharp.fluid}
             backgroundColor="#333333"
         >

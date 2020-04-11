@@ -24,7 +24,7 @@ const ContactInformation = () => {
     `)
 
     return (
-        <section className="contact-information">
+        <section className="contact-information container">
             <h2>Kontakt</h2>
             <p style={{marginBottom: "2.5rem"}}>Ta kontakt, vi svarer gjerne på spørsmål eller andre henvendelser.</p>
             <p style={{marginBottom: "1.2rem"}}>

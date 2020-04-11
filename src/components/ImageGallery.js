@@ -21,7 +21,7 @@ const ImageGallery = () => {
     `)
 
     return (
-        <section className="image-gallery">
+        <section className="image-gallery container">
             <h2>
                 Et hav uten plast og søppel
             </h2>

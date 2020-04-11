@@ -17,7 +17,7 @@ const Nav = () => {
     `)
 
     return (
-        <nav className="navigation">
+        <nav className="navigation container">
             <div className="navigation__logo">
                 <Link to="/">
                     <Img fixed={data.logo.childImageSharp.fixed} />

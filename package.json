@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "plastfritt-hav",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Gatsby static site for Norwegian environmental organization Plastfritt Hav",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {

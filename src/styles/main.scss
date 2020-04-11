@@ -10,6 +10,10 @@ body {
     font-weight: 400;
 }
 
+a {
+    color: #FFFFFF;
+}
+
 p {
     line-height: 2;
 }
@@ -26,11 +30,19 @@ h2 {
     * make everything responsive
 */
 
+// Container
+
+.container {
+    padding: 30px;
+    padding-top: 55px;
+}
+
 // Site navigation
 
 .navigation {
     background-color: #FFFFFF;
-    padding: 14px 30px;
+    padding-top: 14px;
+    padding-bottom: 14px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -89,13 +101,6 @@ h2 {
 }
 
 // Section Om oss
-.om-oss,
-.image-gallery,
-.final-convert,
-.contact-information {
-    padding: 30px;
-    padding-top: 55px;
-}
 
 // Section Image Gallery
 .image-gallery {
@@ -125,5 +130,16 @@ h2 {
             margin-right: 25px;
             top: 3px;
         }
+    }
+}
+
+// Site footer
+.site-footer {
+    padding-bottom: 55px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #62B92C;
+    &__designer-signature {
+        font-size: 0.8rem;
     }
 }

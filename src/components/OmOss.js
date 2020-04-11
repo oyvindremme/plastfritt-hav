@@ -1,7 +1,7 @@
 import React from "react"
 
 const OmOss = () => (
-    <section className="om-oss">
+    <section className="om-oss container">
         <h2>
             Om oss
         </h2>

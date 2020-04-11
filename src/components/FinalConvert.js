@@ -20,7 +20,7 @@ const FinalConvert = () => {
     return (
         <BackgroundImage
         tag="header"
-        className="final-convert"
+        className="final-convert container"
         fluid={data.headerBackgroundImage.childImageSharp.fluid}
         backgroundColor="#333333">
             <h2 className="final-convert__title">Vi trenger din hjelp</h2>

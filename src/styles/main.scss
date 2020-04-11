@@ -91,7 +91,8 @@ h2 {
 // Section Om oss
 .om-oss,
 .image-gallery,
-.final-convert {
+.final-convert,
+.contact-information {
     padding: 30px;
     padding-top: 55px;
 }
@@ -111,5 +112,18 @@ h2 {
     padding-bottom: 85px;
     &__title {
         color: #62B92C;
+    }
+}
+
+// Contact information
+.contact-information {
+    padding-bottom: 85px;
+    &__icon {
+        div {
+            height: 1em!important;
+            width: 1em!important;
+            margin-right: 25px;
+            top: 3px;
+        }
     }
 }

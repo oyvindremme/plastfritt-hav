@@ -90,7 +90,8 @@ h2 {
 
 // Section Om oss
 .om-oss,
-.image-gallery {
+.image-gallery,
+.final-convert {
     padding: 30px;
     padding-top: 55px;
 }
@@ -100,5 +101,15 @@ h2 {
     &__images {
         display: flex;
         flex-wrap: wrap;
+    }
+}
+
+// Final convertion section
+.final-convert {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding-bottom: 85px;
+    &__title {
+        color: #62B92C;
     }
 }

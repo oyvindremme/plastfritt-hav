@@ -7,7 +7,7 @@ const Header = () => {
 
     const data = useStaticQuery(graphql`
         query {
-            headerBackgroundImage: file(relativePath: { eq: "header_img.jpg" }) {
+            headerBackgroundImage: file(relativePath: { eq: "backgrounds/header_img.jpg" }) {
                 childImageSharp {
                     fluid(quality: 80, maxWidth: 1920) {
                     ...GatsbyImageSharpFluid_withWebp

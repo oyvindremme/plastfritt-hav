@@ -138,7 +138,7 @@ $fourK: 2560px;
     &__body-text {
         font-size: 1rem;
         font-weight: 200;
-        padding-bottom: 90px;
+        margin-bottom: 90px;
         line-height: 1.4;
     }
     &__cta-primary {
@@ -161,6 +161,11 @@ $fourK: 2560px;
         }
         &__cta-primary {
             margin-right: 1rem;
+        }
+    }
+    @media (min-width: $laptop) {
+        &__body-text {
+            margin-bottom: 70px;
         }
     }
     @media (min-width: $laptopL) {

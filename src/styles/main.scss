@@ -277,7 +277,14 @@ h2 {
     text-align: center;
     color: #FFFFFF;
     background-color: #62B92C;
-    &__designer-signature {
-        font-size: 0.8rem;
+    &__footer-title {
+        font-size: 1.3rem;
+        font-weight: 900;
+        @media (min-width: $laptopL) {
+            font-size: 2.3rem;
+        }
+        @media (min-width: $fourK) {
+            font-size: 4.3rem;
+        }
     }
 }

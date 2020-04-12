@@ -5,3 +5,6 @@ Gatsby static site for Norwegian environmental organization Plastfritt Hav
 [ ] Make image gallery interactable
 
 [ ] Install React-Helmet - make the site super-SEO-friendly!
+
+## Revision notes
+*None so far...*

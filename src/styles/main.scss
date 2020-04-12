@@ -165,6 +165,10 @@ h2 {
 .front-header {
     padding-top: 65px;
     padding-bottom: 120px;
+    overflow: hidden;
+    perspective: 1px;
+    border-bottom-left-radius: 100% 10%;
+    border-bottom-right-radius: 100% 10%;
     color: #FFFFFF;
     &__title {
         font-size: 1.7rem;
@@ -211,7 +215,7 @@ h2 {
     }
     @media (min-width: $laptopL) {
         padding-top: 105px;
-        padding-bottom: 150px;
+        padding-bottom: 180px;
         &__title {
             font-size: 4.5rem;
         }
@@ -224,7 +228,7 @@ h2 {
     }
     @media (min-width: $fourK) {
         padding-top: 165px;
-        padding-bottom: 210px;
+        padding-bottom: 290px;
         &__title {
             font-size: 8rem;
         }

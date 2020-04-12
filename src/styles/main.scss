@@ -247,6 +247,21 @@ h2 {
     &__images {
         display: flex;
         flex-wrap: wrap;
+        &__image {
+            width: 50%!important;
+            height: 50%!important;
+            @media (min-width: $tablet) {
+                width: 33%!important;
+            }
+            @media (min-width: $laptopL) {
+                width: 16.6%!important;
+            }
+            &:after {
+                content: '';
+                display: block;
+                padding-bottom: 100%;
+            }
+        }
     }
 }
 

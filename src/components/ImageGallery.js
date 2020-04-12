@@ -28,7 +28,7 @@ const ImageGallery = () => {
                 </h2>
                 <div className="image-gallery__images">
                     {data.allFile.edges.map(image => (
-                        <Img fixed={image.node.childImageSharp.fixed} />
+                        <Img className="image-gallery__images__image" fixed={image.node.childImageSharp.fixed} />
                     ))}
                 </div>
             </div>

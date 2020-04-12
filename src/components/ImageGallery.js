@@ -21,14 +21,16 @@ const ImageGallery = () => {
     `)
 
     return (
-        <section className="image-gallery container">
-            <h2>
-                Et hav uten plast og søppel
-            </h2>
-            <div className="image-gallery__images">
-                {data.allFile.edges.map(image => (
-                    <Img fixed={image.node.childImageSharp.fixed} />
-                ))}
+        <section className="image-gallery">
+            <div className="container">
+                <h2>
+                    Et hav uten plast og søppel
+                </h2>
+                <div className="image-gallery__images">
+                    {data.allFile.edges.map(image => (
+                        <Img fixed={image.node.childImageSharp.fixed} />
+                    ))}
+                </div>
             </div>
         </section>
     )

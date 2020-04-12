@@ -40,8 +40,8 @@ $fourK: 2560px;
 // Container
 
 .container {
-    width: 300px;
-    min-width: 300px;
+    width: 290px;
+    min-width: 290px;
     margin: 0 auto;
     @media (min-width: $mobileL) {
         width: 365px;
@@ -59,6 +59,15 @@ $fourK: 2560px;
         width: 2300px;
         min-width: 2300px;
     }
+}
+
+.navigation,
+.front-header,
+.om-oss,
+.image-gallery,
+.final-convert,
+.site-footer {
+    padding-bottom: 55px;
 }
 
 // Buttons
@@ -195,6 +204,11 @@ $fourK: 2560px;
             margin-right: 3rem;
         }
     }
+}
+
+// Om oss section
+.om-oss {
+    padding-top: 55px;
 }
 
 // Section Om oss

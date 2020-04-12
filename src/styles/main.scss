@@ -33,8 +33,35 @@ h2 {
 // Container
 
 .container {
-    padding: 30px;
-    padding-top: 55px;
+    width: 300px;
+    min-width: 300px;
+    margin: 0 auto;
+    @media (min-width: 425px) {
+        width: 365px;
+        min-width: 365px;
+    }
+    @media (min-width: 768px) {
+        width: 706px;
+        min-width: 706px;
+    }
+}
+
+// Buttons
+.button {
+    background-color: #000000;
+    color: #FFFFFF;
+    margin: 0;
+    line-height: 1;
+    display: block;
+    text-decoration: none;
+    padding: 10px 60px;
+    text-align: center;
+    margin-bottom: 1rem;
+    @media (min-width: 768px) {
+        display: inline-block;
+        font-size: 1.2rem;
+        padding: 15px 65px;
+    }
 }
 
 // Site navigation
@@ -56,7 +83,6 @@ h2 {
 
 // Front page header
 .front-header {
-    padding: 30px;
     padding-top: 65px;
     padding-bottom: 120px;
     color: #FFFFFF;
@@ -67,8 +93,7 @@ h2 {
         margin-bottom: 0;
     }
     &__sub-title {
-        font-size: 1.2rem;
-        margin-bottom: 1rem;
+        font-size: 1.3rem;
         font-weight: 300;
     }
     &__body-text {
@@ -80,23 +105,24 @@ h2 {
     &__cta-primary {
         background-color: #62B92C;
         color: #FFFFFF;
-        margin: 0;
-        line-height: 1;
-        display: block;
-        text-decoration: none;
-        padding: 10px 60px;
-        text-align: center;
-        margin-bottom: 1rem;
     }
     &__cta-secondary {
         background-color: #FFFFFF;
         color: #000000;
-        margin: 0;
-        line-height: 1;
-        display: block;
-        text-decoration: none;
-        padding: 10px 60px;
-        text-align: center;
+    }
+    @media (min-width: 768px) {
+        &__title {
+            font-size: 3rem;
+        }
+        &__sub-title {
+            font-size: 2rem;
+        }
+        &__body-text {
+            font-size: 1.2rem;
+        }
+        &__cta-primary {
+            margin-right: 1rem;
+        }
     }
 }
 

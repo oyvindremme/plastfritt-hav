@@ -20,21 +20,23 @@ const Header = () => {
     return (
         <BackgroundImage
             tag="header"
-            className="front-header container"
+            className="front-header"
             fluid={data.headerBackgroundImage.childImageSharp.fluid}
             backgroundColor="#333333"
         >
-            <h2 className="front-header__title">Bli med på laget</h2>
-            <p className="front-header__sub-title">Ei fjøre uten plast</p>
-            <p className="front-header__body-text">Miljøengasjert organisasjon med kjærlighet for havet</p>
+            <div className="container">
+                <h2 className="front-header__title">Bli med på laget</h2>
+                <p className="front-header__sub-title">Ei fjøre uten plast</p>
+                <p className="front-header__body-text">Miljøengasjert organisasjon med kjærlighet for havet</p>
 
-            <a className="front-header__cta-primary" href="#" target="_blank">
-                Registrer din aksjon
-            </a>
+                <a className="button front-header__cta-primary" href="#" target="_blank">
+                    Registrer din aksjon
+                </a>
 
-            <a href="#kontakt" className="front-header__cta-secondary">
-                Kontakt oss
-            </a>
+                <a href="#kontakt" className="button front-header__cta-secondary">
+                    Kontakt oss
+                </a>
+            </div>
         </BackgroundImage>   
     )
 }

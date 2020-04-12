@@ -22,7 +22,7 @@ const ImageGallery = () => {
 
     return (
         <section className="image-gallery">
-            <div className="container">
+            <div className="container padding-bottom">
                 <h2>
                     Et hav uten plast og søppel
                 </h2>

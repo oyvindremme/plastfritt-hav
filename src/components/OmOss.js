@@ -2,7 +2,7 @@ import React from "react"
 
 const OmOss = () => (
     <section className="om-oss">
-        <div className="container">
+        <div className="container padding-top padding-bottom">
             <h2>
                 Om oss
             </h2>

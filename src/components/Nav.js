@@ -8,7 +8,7 @@ const Nav = () => {
         query {
             logo: file(relativePath: { eq: "logo/plastfritt_hav-hori_logo.png" }) {
                 childImageSharp {
-                    fixed(height: 45) {
+                    fixed(height: 120) {
                         ...GatsbyImageSharpFixed
                     }
                 }
@@ -17,17 +17,14 @@ const Nav = () => {
     `)
 
     return (
-        <nav className="navigation container">
-            <div className="navigation__logo">
-                <Link to="/">
-                    <Img fixed={data.logo.childImageSharp.fixed} />
-                </Link>
+        <nav className="navigation">
+            <div className="container">
+                <div className="navigation__logo">
+                    <Link to="/">
+                        <Img fixed={data.logo.childImageSharp.fixed} />
+                    </Link>
+                </div>
             </div>
-            {/* <div className="navigation__log-in-link">
-                <Link to="/login">
-                    Logg inn
-                </Link>
-            </div> */}
         </nav>
     )
 }

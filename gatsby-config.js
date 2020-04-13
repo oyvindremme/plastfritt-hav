@@ -21,6 +21,18 @@ module.exports = {
           }
         ],
       },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Plastfritt Hav`,
+        short_name: `Plastfritt Hav`,
+        start_url: `/`,
+        background_color: `#FFFFFF`,
+        theme_color: `#62B92C`,
+        display: `standalone`,
+        icon: `src/images/favicon/favicon.png`
+      },
     }
   ]
 }

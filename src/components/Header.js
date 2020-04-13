@@ -29,12 +29,12 @@ const Header = () => {
                 <p className="front-header__sub-title">Ei fjøre uten plast</p>
                 <p className="front-header__body-text">Miljøengasjert organisasjon med kjærlighet for havet</p>
 
-                <a className="button front-header__cta-primary" href="#" target="_blank">
-                    Registrer din aksjon
+                <a className="button front-header__cta-primary" href="#kontakt">
+                    Kontakt oss
                 </a>
 
-                <a href="#kontakt" className="button front-header__cta-secondary">
-                    Kontakt oss
+                <a href="https://www.facebook.com/plastfritt" target="_blank" rel="noopener noreferrer" className="button front-header__cta-secondary">
+                    Facebook
                 </a>
             </div>
         </BackgroundImage>   

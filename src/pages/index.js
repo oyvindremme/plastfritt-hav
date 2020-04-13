@@ -1,5 +1,8 @@
 import React from "react"
 
+// React helmet
+import { Helmet } from "react-helmet"
+
 // Components
 import Nav from "../components/Nav"
 import Header from "../components/Header"
@@ -12,9 +15,26 @@ import Footer from "../components/Footer"
 // Assets
 import "../styles/main.scss"
 
-const Hjem = ({ data }) => {
+const Hjem = () => {
     return (
         <>
+            <Helmet>
+                <title>Plastfritt Hav | Bli med på laget</title>
+                <meta name="title" content="Plastfritt Hav | Bli med på laget" />
+                <meta name="description" content="Miljøengasjert organisasjon med kjærlighet for havet" />
+
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://plastfritthav.no/" />
+                <meta property="og:title" content="Plastfritt Hav | Bli med på laget" />
+                <meta property="og:description" content="Miljøengasjert organisasjon med kjærlighet for havet" />
+                <meta property="og:image" content={"../images/seo/plastfritt-seo-img.png"} />
+
+                <meta property="twitter:card" content="summary_large_image" />
+                <meta property="twitter:url" content="https://plastfritthav.no/" />
+                <meta property="twitter:title" content="Plastfritt Hav | Bli med på laget" />
+                <meta property="twitter:description" content="Miljøengasjert organisasjon med kjærlighet for havet" />
+                <meta property="twitter:image" content={"../images/seo/plastfritt-seo-img.png"} />
+            </Helmet>
             <Nav />
             <Header />
             <OmOss />

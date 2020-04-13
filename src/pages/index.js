@@ -14,6 +14,7 @@ import Footer from "../components/Footer"
 
 // Assets
 import "../styles/main.scss"
+import seoImage from "../images/seo/plastfritt-seo-img.png"
 
 const Hjem = () => {
     return (
@@ -27,13 +28,13 @@ const Hjem = () => {
                 <meta property="og:url" content="https://plastfritthav.netlify.com/" />
                 <meta property="og:title" content="Plastfritt Hav | Bli med på laget" />
                 <meta property="og:description" content="Miljøengasjert organisasjon med kjærlighet for havet" />
-                <meta property="og:image" content={"../images/seo/plastfritt-seo-img.png"} />
+                <meta property="og:image" content={seoImage} />
 
                 <meta property="twitter:card" content="summary_large_image" />
                 <meta property="twitter:url" content="https://plastfritthav.netlify.com/" />
                 <meta property="twitter:title" content="Plastfritt Hav | Bli med på laget" />
                 <meta property="twitter:description" content="Miljøengasjert organisasjon med kjærlighet for havet" />
-                <meta property="twitter:image" content={"../images/seo/plastfritt-seo-img.png"} />
+                <meta property="twitter:image" content={seoImage} />
             </Helmet>
             <Nav />
             <Header />

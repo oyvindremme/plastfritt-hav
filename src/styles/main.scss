@@ -10,15 +10,21 @@ $laptop: 1024px;
 $laptopL: 1440px;
 $fourK: 2560px;
 
+// Colors
+$primary: #62B92C;
+$dark: #5D595A;
+$light: #f8f8f8;
+
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: "Montserrat", sans-serif;
     font-size: 17px;
-    color: #5D595A;
+    color: $dark;
     font-weight: 400;
     @media (min-width: $tablet) {
         font-size: 19px;
@@ -35,7 +41,7 @@ body {
 }
 
 a {
-    color: #000000;
+    color: $dark;
 }
 
 p {
@@ -104,8 +110,8 @@ h2 {
 
 // Buttons
 .button {
-    background-color: #000000;
-    color: #FFFFFF;
+    background-color: $dark;
+    color: $light;
     margin: 0;
     line-height: 1;
     display: block;
@@ -131,7 +137,7 @@ h2 {
 // Site navigation
 
 .navigation {
-    background-color: #FFFFFF;
+    background-color: $light;
     padding-top: 14px;
     padding-bottom: 14px;
     display: flex;
@@ -169,7 +175,7 @@ h2 {
     perspective: 1px;
     border-bottom-left-radius: 100% 10%;
     border-bottom-right-radius: 100% 10%;
-    color: #FFFFFF;
+    color: $light;
     &__title {
         font-size: 1.7rem;
         text-transform: uppercase;
@@ -187,12 +193,12 @@ h2 {
         line-height: 1.4;
     }
     &__cta-primary {
-        background-color: #62B92C;
-        color: #FFFFFF;
+        background-color: $primary;
+        color: $light;
     }
     &__cta-secondary {
-        background-color: #FFFFFF;
-        color: #000000;
+        background-color: $light;
+        color: $dark;
     }
     @media (min-width: $tablet) {
         &__title {
@@ -271,10 +277,10 @@ h2 {
 
 // Final convertion section
 .final-convert {
-    background-color: #333333;
-    color: #FFFFFF;
+    background-color: $dark;
+    color: $light;
     &__title {
-        color: #62B92C;
+        color: $primary;
     }
 }
 
@@ -293,8 +299,8 @@ h2 {
 // Site footer
 .site-footer {
     text-align: center;
-    color: #FFFFFF;
-    background-color: #62B92C;
+    color: $light;
+    background-color: $primary;
     &__footer-title {
         font-size: 1.3rem;
         font-weight: 900;

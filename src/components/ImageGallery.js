@@ -10,7 +10,7 @@ const ImageGallery = () => {
                 edges {
                     node {
                         childImageSharp {
-                            fixed(width: 150, height: 150) {
+                            fixed(width: 300, height: 300) {
                                 ...GatsbyImageSharpFixed
                             }
                         }

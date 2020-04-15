@@ -31,12 +31,12 @@ const ContactInformation = () => {
                 <p style={{marginBottom: "1.2rem"}}>
                     <span className="contact-information__icon">
                         <Img fixed={data.phone.childImageSharp.fixed} />
-                    </span> 930 46 201
+                    </span> <a href="93046201">930 46 201</a>
                 </p>
                 <p>
                     <span className="contact-information__icon">
                         <Img fixed={data.email.childImageSharp.fixed} />
-                    </span> plastfrittgiske@gmail.com
+                    </span> <a href="plastfritthav@gmail.com" target="_blank" rel="noopener noreferrer">plastfritthav@gmail.com</a>
                 </p>
             </div>
         </section>

@@ -36,7 +36,7 @@ const ContactInformation = () => {
                 <p>
                     <span className="contact-information__icon">
                         <Img fixed={data.email.childImageSharp.fixed} />
-                    </span> <a href="plastfritthav@gmail.com" target="_blank" rel="noopener noreferrer">plastfritthav@gmail.com</a>
+                    </span> <a href="plastfrittgiske@gmail.com" target="_blank" rel="noopener noreferrer">plastfrittgiske@gmail.com</a>
                 </p>
             </div>
         </section>

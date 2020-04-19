@@ -25,6 +25,7 @@ const Header = () => {
             backgroundColor="#333333"
         >
             <div className="container">
+                <h1 style={{display: "none"}}>Plastfritt Hav</h1>
                 <h2 className="front-header__title">Bli med på laget</h2>
                 <p className="front-header__sub-title">Ei fjøre uten plast</p>
                 <p className="front-header__body-text">Miljøengasjert organisasjon med kjærlighet for havet</p>

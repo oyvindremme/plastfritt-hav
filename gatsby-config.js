@@ -33,6 +33,7 @@ module.exports = {
         display: `standalone`,
         icon: `src/images/favicon/favicon.png`
       },
-    }
+    },
+    "gatsby-plugin-netlify-cache"
   ]
 }

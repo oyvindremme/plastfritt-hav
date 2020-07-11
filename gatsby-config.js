@@ -34,6 +34,7 @@ module.exports = {
         icon: `src/images/favicon/favicon.png`
       },
     },
-    "gatsby-plugin-netlify-cache"
+    "gatsby-plugin-netlify-cache",
+    `gatsby-plugin-preact`
   ]
 }
